@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Калькулятор услуг</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<div class="container">
+    <div class="left-block">
+        <div class="title">
+            <p>Калькулятор расчета полклейки обоев</p>
+        </div>
+
+        <div class="block">
+            <div class="block-title">
+                <p>Вид обоев:</p>
+            </div>
+
+            <div class="block-item"><span class="active" value='122'>Бумажные</span></div>
+            <div class="block-item"><span value='222'>Виниловые</span></div>
+            <div class="block-item"><span value='322'>Флизелиновые</span></div>
+            <div class="block-item"><span value='422'>Жидкие</span></div>
+            <div class="block-item"><span value='522'>Натуральные</span></div>
+        </div>
+
+        <div class="block">
+            <div class="block-title">
+                <p>Клей:</p>
+            </div>
+            <div class="block-item"><span class="active" value='12'>Quelyd</span></div>
+            <div class="block-item"><span value='25'>Axton</span></div>
+            <div class="block-item"><span value='38'>KLEO</span></div>
+            <div class="block-item"><span value='42'>Metylan</span></div>
+        </div>
+
+        <div class="block">
+            <div class="block-title">
+                <p>Покраска:</p>
+            </div>
+
+            <div class="block-item"><span class="active" value='0'>Нет</span></div>
+            <div class="block-item"><span value='11'>Акриловая</span></div>
+            <div class="block-item"><span value='21'>Интерьерная</span></div>
+            <div class="block-item"><span value='31'>Моющаяся</span></div>
+            <div class="block-item"><span value='41'>Латексная</span></div>
+        </div>
+
+        <div class="block">
+            <div class="block-title">
+                <p>Есть старые обои?</p>
+            </div>
+
+            <div class="block-item"><span class="active" value='11'>Да</span></div>
+            <div class="block-item"><span value='0'>Нет</span></div>
+        </div>
+
+        <div class="block">
+            <div class="block-title">
+                <p>Стены подготовленны?</p>
+            </div>
+
+            <div class="block-item"><span value='0' class="active">Да</span></div>
+            <div class="block-item"><span value='11'>Нет</span></div>
+        </div>
+
+    </div>
+    <div class="right-block">
+        <span>Поклейка обоев вам обойдется в:</span>
+        <p class="result"></p>
+        <p>&#8381;/m<sup>2</sup></p>
+    </div>
+</div>
+
+<body>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/js.js"></script>
+</body>
+
+</html>
